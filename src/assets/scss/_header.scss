@@ -129,11 +129,13 @@ header {
         padding: 0;
         right: 0;
         z-index: 10;
-        top: 205px;
+        overflow: hidden;
+        top:168px;
         background: #fff;
         left: 0;
-        @media screen and (max-width:1200px) {
-          width: 100vw!important;
+        @media screen and (max-width:1199px) {
+          width: 100%!important;
+          height: auto;
           position: absolute;
         }
         li.navbar-item {
@@ -215,7 +217,4 @@ header {
       }
     }
   }
-}
-.header-slider{
-  
 }

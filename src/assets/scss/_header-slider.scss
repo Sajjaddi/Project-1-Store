@@ -1,0 +1,19 @@
+.header-slider{
+    .row{
+        .col-12{
+          .carousel{
+            .carousel-indicators{
+              button{
+                border-radius: 50%;
+                width: 10px;
+                height: 10px;
+                margin-bottom: -18px;
+              }
+              button.active{
+                background-color: #555;
+              }
+            }
+          }
+        }
+    }
+  }

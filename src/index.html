@@ -1,13 +1,13 @@
 <!DOCTYPE html>
-<html lang="en" dir="rtl">
+<html lang="ar" dir="rtl">
 
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="assets/css/style.css">
-  <link rel="stylesheet" href="assets/css/Bootstrap/min/bootstrap.min.css">
   <link rel="stylesheet" href="assets/css/Bootstrap/min/bootstrap.rtl.min.css">
+  <!-- <link rel="stylesheet" href="assets/css/Bootstrap/min/bootstrap.min.css"> -->
   <link rel="stylesheet" href="assets/fonts/fontawesome-free-5.15.4-web/css/all.css">
   <title>فروشگاه اینترنتی</title>
 </head>
@@ -17,15 +17,15 @@
   <a href="#"><img class="w-100" src="assets/gif/header.gif" alt="اقساطی خرید کن"></a>
   <header class="container mt-3">
     <div class="row d-flex justify-content-between align-items-center">
-      <div class="col-7 col-xl-3 logo-store ms-3 ms-xl-0 mb-4 mb-xl-0">
+      <div class="col-6 col-xl-3 logo-store ms-3 ms-xl-0 mb-3 mb-xl-0">
         <img class="img-fluid" src="assets/img/5a28b6c6747ce0.7560301215126176704771.png" alt="logo-company">
       </div>
-      <div class="col-6 col-md-7 me-3 col-xl-5 search-bar p-0 me-xl-0 mb-4 mb-xl-0">
+      <div class="col-6 col-md-6 me-3 col-xl-5 search-bar p-0 me-xl-0 mb-3 mb-xl-0">
         <input class="" type="text" placeholder="جستجو کالا ...">
         <span class="position-absolute"><i class="fas fa-search"></i></span>
       </div>
-      <div class="col-9 order-1 order-xl-0 col-xl-4 navs-head p-0 d-flex d-xl-block justify-content-end align-items-center">
-        <a href="#" class="">فروشنده باش!</a>
+      <div class="col-8 col-md-7 order-1 order-xl-0 col-xl-4 navs-head p-0 d-flex d-xl-block justify-content-end align-items-start">
+        <a href="#" class="me-3">فروشنده باش!</a>
         <a href="#" class="me-3" data-toggle="tooltip" title="کارت هدیه"><i class="fas fa-gift"></i></a>
         <a href="#" class="me-3" data-toggle="tooltip" title="سوالات متداول"><i class="fas fa-question"></i></a>
         <a href="#" class="text-dark me-3">ورود/ثبت نام</a>
@@ -33,7 +33,7 @@
             class="fas fa-shopping-cart"></i></a>
       </div>
       <!-- start menu -->
-      <div class="col-3 col-xl-12 mt-4 p-0 menu-navbar d-flex align-items-center justify-content-start ps-2 container-fluid">
+      <div class="col-4 col-md-5 col-xl-12 mt-4 p-0 menu-navbar d-flex align-items-center justify-content-start ps-2 container-fluid">
         <span class="mb-4 toggler d-flex d-xl-none"><i class="bar-icon"></i></span>
         <nav class="col-12 d-xl-flex w-100">
           <!-- <span class="toggler"><i class="fas fa-bars"></i></span> -->
@@ -957,7 +957,50 @@
     </div>
   </header>
   <!-- End header -->
-  
+  <!-- Start head slider -->
+  <div class="container-fluid mt-4 mt-xl-3 header-slider">
+      <div class="row">
+            <div class="col-12 p-0">
+                  <div id="carousel-header" class="carousel slide " data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                          <button type="button" data-bs-target="#carousel-header" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                          <button type="button" data-bs-target="#carousel-header" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                          <button type="button" data-bs-target="#carousel-header" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                          <button type="button" data-bs-target="#carousel-header" data-bs-slide-to="3" aria-label="Slide 3"></button>
+                          <button type="button" data-bs-target="#carousel-header" data-bs-slide-to="4" aria-label="Slide 3"></button>
+                          <button type="button" data-bs-target="#carousel-header" data-bs-slide-to="5" aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="assets/img/image-0-compressed.jpg" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="assets/img/image-1-compressed.jpg" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="assets/img/image-2-compressed.jpg" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="assets/img/image-3-compressed.jpg" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="assets/img/image-4-compressed.jpg" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="assets/img/image-5-compressed.jpg" class="d-block w-100" alt="...">
+                          </div>
+                        </div>
+                              <button class="carousel-control-prev" type="button" data-bs-target="#carousel-header" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                  </button>
+                                  <button class="carousel-control-next" type="button" data-bs-target="#carousel-header" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                  </button>
+                      </div>
+           </div>
+      </div> 
+ </div>
+ <!-- End head slider -->
 
   <br>
   <br>
@@ -968,8 +1011,7 @@
 
   <script src="assets/js/jQuery/jquery.js"></script>
   <script src="assets/js/bootstrap.min.js"></script>
-  <script src="assets/js/plugin/OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
-  <script src="assets/js/main.js"></script>
+    <script src="assets/js/main.js"></script>
 </body>
 
 </html>

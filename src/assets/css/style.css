@@ -162,14 +162,16 @@ header .menu-navbar nav ul {
   padding: 0;
   right: 0;
   z-index: 10;
-  top: 205px;
+  overflow: hidden;
+  top: 168px;
   background: #fff;
   left: 0;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1199px) {
   header .menu-navbar nav ul {
-    width: 100vw !important;
+    width: 100% !important;
+    height: auto;
     position: absolute;
   }
 }
@@ -270,6 +272,17 @@ header .menu-navbar nav ul li.navbar-item ul .col li.header a i {
 
 * {
   font-family: IRANSansWeb;
+}
+
+.header-slider .row .col-12 .carousel .carousel-indicators button {
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  margin-bottom: -18px;
+}
+
+.header-slider .row .col-12 .carousel .carousel-indicators button.active {
+  background-color: #555;
 }
 
 body {
