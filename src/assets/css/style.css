@@ -326,6 +326,14 @@ header .menu-navbar nav ul li.navbar-item ul .col li.header a i {
   margin-top: 5px;
 }
 
+.double-banner .row .banner-nav:nth-of-type(1) a img {
+  border-radius: 0 10px 96px 0;
+}
+
+.double-banner .row .banner-nav:nth-of-type(2) a img {
+  border-radius: 96px 0 0 10px;
+}
+
 body {
   overflow-x: hidden;
 }
