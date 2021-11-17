@@ -13,6 +13,11 @@
                 background-color: #555;
               }
             }
+            .carousel-control-prev .carousel-control-prev-icon,
+            .carousel-control-next .carousel-control-next-icon{
+              height: 40px;
+              width: 40px;
+            }
           }
         }
     }

@@ -285,6 +285,47 @@ header .menu-navbar nav ul li.navbar-item ul .col li.header a i {
   background-color: #555;
 }
 
+.header-slider .row .col-12 .carousel .carousel-control-prev .carousel-control-prev-icon,
+.header-slider .row .col-12 .carousel .carousel-control-next .carousel-control-next-icon {
+  height: 40px;
+  width: 40px;
+}
+
+@media screen and (max-width: 1400px) {
+  .category-scroller-nav .row .col-12 .category-nav {
+    overflow-x: scroll;
+    /* Handle */
+    /* Handle on hover */
+  }
+  .category-scroller-nav .row .col-12 .category-nav::-webkit-scrollbar {
+    height: 5px;
+  }
+  .category-scroller-nav .row .col-12 .category-nav::-webkit-scrollbar-track {
+    background: #fff;
+  }
+  .category-scroller-nav .row .col-12 .category-nav::-webkit-scrollbar-thumb {
+    background: #f0f0f0;
+  }
+  .category-scroller-nav .row .col-12 .category-nav::-webkit-scrollbar-thumb:hover {
+    background: #d9d9d9;
+  }
+}
+
+.category-scroller-nav .row .col-12 .category-nav .category-item-nav {
+  width: 100px;
+}
+
+.category-scroller-nav .row .col-12 .category-nav .category-item-nav img {
+  height: auto;
+  width: 100%;
+}
+
+.category-scroller-nav .row .col-12 .category-nav .category-item-nav p {
+  font-size: 14px;
+  text-align: center;
+  margin-top: 5px;
+}
+
 body {
   overflow-x: hidden;
 }
