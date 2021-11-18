@@ -793,6 +793,24 @@ header .menu-navbar nav ul li.navbar-item ul .col li.header a i {
   font-weight: bold;
 }
 
+.banner-series-computer .row .img-ultra-height {
+  width: 29.3%;
+}
+
+.banner-series-computer .row .img-ultra-height a img {
+  border-radius: 10px;
+  height: 100%;
+}
+
+.banner-series-computer .row .images-series-top {
+  width: 68.7%;
+}
+
+.banner-series-computer .row .images-series-top div div a img {
+  border-radius: 10px;
+  height: 100%;
+}
+
 body {
   overflow-x: hidden;
 }
