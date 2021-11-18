@@ -734,6 +734,47 @@ header .menu-navbar nav ul li.navbar-item ul .col li.header a i {
   font-size: 38px;
 }
 
+.sales-item-carousel .row div .title-carousel {
+  margin-bottom: 80px;
+}
+
+.sales-item-carousel .row div .title-carousel .title-text-carousel img {
+  animation: fire-sale 1s infinite;
+}
+
+@keyframes fire-sale {
+  0% {
+    transform: scale(1.1);
+  }
+}
+
+.sales-item-carousel .row div .title-carousel .title-text-carousel .text {
+  font-size: 24px;
+  position: relative;
+}
+
+.sales-item-carousel .row div .title-carousel .title-text-carousel .text::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 20px;
+  background: #feed00;
+  z-index: -1;
+}
+
+.sales-item-carousel .row div .title-carousel .title-text-carousel .text::after {
+  content: "";
+  position: absolute;
+  bottom: -8px;
+  left: -8px;
+  width: 100%;
+  height: 20px;
+  background: #d9d9d9;
+  z-index: -2;
+}
+
 .banners-item .row .banner-series a img {
   border-radius: 10px !important;
 }
