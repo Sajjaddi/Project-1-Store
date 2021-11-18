@@ -9,3 +9,22 @@
         }
     }
 }
+// for banner description
+.banner-description{
+    .row{
+        .img-description{
+            .text-description{
+                display: flex;
+                flex-direction: column;
+                position: absolute;
+                top: 25px;
+                right:20px;
+                span{
+                    margin-bottom: 12px;
+                    font-size: $default-font-size + 8;
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+}

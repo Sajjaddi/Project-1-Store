@@ -44,6 +44,23 @@ $(document).ready(function(){
         }
     }
     });
+    $('.owl-carousel-category-item-special').owlCarousel({
+        loop:true,
+        margin:40,
+        nav:true,
+        rtl: true,
+        responsive:{
+            0:{
+                items:2
+            },
+            1000:{
+                items:3
+            },
+            1200:{
+            items:4
+        }
+    }
+    });
     $('#sale-box-counter').countdown({
     date:'12/12/2021 23:59:59'
     });
