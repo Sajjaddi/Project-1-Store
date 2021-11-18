@@ -469,9 +469,9 @@ header .menu-navbar nav ul li.navbar-item ul .col li.header a i {
 .sale-box .row .carousel-nav .owl-carousel .owl-nav .owl-prev {
   position: absolute;
   background-color: #fff;
-  width: 50px;
-  height: 50px;
-  right: -30px;
+  width: 40px;
+  height: 40px;
+  right: -25px;
   top: 40%;
   transform: translateY(-40%);
   border-radius: 50%;
@@ -482,17 +482,17 @@ header .menu-navbar nav ul li.navbar-item ul .col li.header a i {
 }
 
 .sale-box .row .carousel-nav .owl-carousel .owl-nav .owl-prev span {
-  font-size: 41px;
+  font-size: 38px;
 }
 
 .sale-box .row .carousel-nav .owl-carousel .owl-nav .owl-next {
   position: absolute;
   background-color: #fff;
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
   top: 40%;
   transform: translateY(-40%);
-  left: -30px;
+  left: -25px;
   border-radius: 50%;
   z-index: 1;
   display: flex;
@@ -501,7 +501,7 @@ header .menu-navbar nav ul li.navbar-item ul .col li.header a i {
 }
 
 .sale-box .row .carousel-nav .owl-carousel .owl-nav .owl-next span {
-  font-size: 41px;
+  font-size: 38px;
 }
 
 .sale-box .row .sale-counter p.title {
@@ -551,6 +551,183 @@ header .menu-navbar nav ul li.navbar-item ul .col li.header a i {
 
 .double-banner .row .banner-nav:nth-of-type(2) a img {
   border-radius: 96px 0 0 10px;
+}
+
+.title-carousel .title-text-carousel {
+  position: absolute;
+  font-size: 23px;
+  right: 0;
+  top: 0;
+  font-weight: bold;
+}
+
+.title-carousel a {
+  color: #111;
+}
+
+.title-carousel a .title-more-carousel {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.title-carousel a .title-more-carousel span {
+  margin-left: 10px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.owl-carousel .item {
+  height: 400px;
+  position: relative;
+}
+
+.owl-carousel .item a {
+  color: #111;
+}
+
+.owl-carousel .item a .img-item {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 100%;
+  margin-bottom: 8px;
+  height: 270px;
+  background-color: #f5f5f5;
+  border-radius: 10px;
+}
+
+.owl-carousel .item a .img-item .fast-deliver {
+  position: absolute;
+  left: 10px;
+  border-radius: 3px;
+  overflow: hidden;
+  bottom: 10px;
+}
+
+.owl-carousel .item a .img-item .fast-deliver i {
+  font-size: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+  color: #fff;
+  background: #27ae60;
+}
+
+.owl-carousel .item a .img-item .fast-deliver i img {
+  width: 15px;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.owl-carousel .item a .img-item .fast-deliver span {
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 20px;
+  background: rgba(92, 193, 134, 0.2);
+  color: #27ae60;
+}
+
+.owl-carousel .item a .img-item img {
+  width: 170px;
+  max-width: 100%;
+}
+
+.owl-carousel .item .text-item {
+  max-height: 40px;
+  overflow: hidden;
+  font-size: 13px;
+  padding: 0 2px;
+}
+
+.owl-carousel .item .footer {
+  position: absolute;
+  bottom: 0;
+  left: 5px;
+}
+
+.owl-carousel .item .footer .price-sale-item {
+  padding: 0 2px;
+}
+
+.owl-carousel .item .footer .price-sale-item .price {
+  text-decoration: line-through;
+  color: #777;
+  font-size: 15px;
+}
+
+.owl-carousel .item .footer .price-sale-item .percent-sale {
+  font-size: 15px;
+  background-color: #feed00;
+  border-radius: 2px;
+  padding: 2px;
+  margin-left: 5px;
+}
+
+.owl-carousel .item .footer .price-item {
+  padding: 0 2px;
+}
+
+.owl-carousel .item .footer .price-item .price {
+  margin-left: 10px;
+  font-weight: bold;
+  font-size: 19px;
+}
+
+.owl-carousel .item .footer .price-item .currency {
+  color: #777;
+  line-height: 2.5;
+  font-size: 12px;
+}
+
+.owl-carousel .owl-nav {
+  display: block !important;
+}
+
+.owl-carousel .owl-nav .owl-prev {
+  position: absolute;
+  background-color: #fff !important;
+  width: 40px;
+  height: 40px;
+  box-shadow: 0 7.5px 16px rgba(0, 0, 0, 0.15);
+  right: -25px;
+  top: 40%;
+  transform: translateY(-40%);
+  border-radius: 50%;
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.owl-carousel .owl-nav .owl-prev span {
+  font-size: 38px;
+}
+
+.owl-carousel .owl-nav .owl-next {
+  position: absolute;
+  background-color: #fff !important;
+  width: 40px;
+  height: 40px;
+  top: 40%;
+  transform: translateY(-40%);
+  left: -25px;
+  border-radius: 50%;
+  z-index: 1;
+  display: flex;
+  box-shadow: 0 7.5px 16px rgba(0, 0, 0, 0.15);
+  justify-content: center;
+  align-items: center;
+}
+
+.owl-carousel .owl-nav .owl-next span {
+  font-size: 38px;
 }
 
 body {

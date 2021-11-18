@@ -3,12 +3,32 @@ $(document).ready(function(){
             $(".toggler i").toggleClass("close-icon")
             $(".menu-navbar nav").toggle("fast")
     });
-    $('.owl-carousel').owlCarousel({
+    $('.owl-carousel-sale-box').owlCarousel({
         loop:true,
         margin:10,
         nav:true,
         rtl: true,
         stagePadding: 50,
+        responsive:{
+            0:{
+                items:2
+            },
+            600:{
+                items:2
+            },
+            1000:{
+                items:3
+            },
+            1200:{
+            items:4
+        }
+    }
+    });
+    $('.owl-carousel-category').owlCarousel({
+        loop:true,
+        margin:40,
+        nav:true,
+        rtl: true,
         responsive:{
             0:{
                 items:2
