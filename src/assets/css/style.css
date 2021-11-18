@@ -734,6 +734,10 @@ header .menu-navbar nav ul li.navbar-item ul .col li.header a i {
   font-size: 38px;
 }
 
+.banners-item .row .banner-series a img {
+  border-radius: 10px !important;
+}
+
 body {
   overflow-x: hidden;
 }
