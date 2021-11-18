@@ -553,6 +553,10 @@ header .menu-navbar nav ul li.navbar-item ul .col li.header a i {
   border-radius: 96px 0 0 10px;
 }
 
+.double-banner-items .row .banner-nav a img {
+  border-radius: 10px !important;
+}
+
 .title-carousel .title-text-carousel {
   position: absolute;
   font-size: 23px;
@@ -696,9 +700,9 @@ header .menu-navbar nav ul li.navbar-item ul .col li.header a i {
   width: 40px;
   height: 40px;
   box-shadow: 0 7.5px 16px rgba(0, 0, 0, 0.15);
-  right: -25px;
-  top: 40%;
-  transform: translateY(-40%);
+  right: -20px;
+  top: 35%;
+  transform: translateY(-35%);
   border-radius: 50%;
   z-index: 10;
   display: flex;
@@ -715,9 +719,9 @@ header .menu-navbar nav ul li.navbar-item ul .col li.header a i {
   background-color: #fff !important;
   width: 40px;
   height: 40px;
-  top: 40%;
-  transform: translateY(-40%);
-  left: -25px;
+  top: 35%;
+  transform: translateY(-35%);
+  left: -20px;
   border-radius: 50%;
   z-index: 1;
   display: flex;
