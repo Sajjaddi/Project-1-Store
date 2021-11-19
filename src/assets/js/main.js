@@ -1,4 +1,18 @@
 $(document).ready(function(){
+    $(window).scroll(function(){
+        if($(this).scrollTop() >= 150){
+            $("#scroller-top").css("right","20px")
+        }
+        else{
+            $("#scroller-top").css("right","-60px")
+        }
+        $("#scroller-top").click(function(e){
+            e.preventDefault();
+            $("body,html").animate({
+                scrollTop:0
+            },500);
+        });
+    });
     $(".view-more").click(function(){
         $(".about-more").toggleClass("view-all")
         $(".view-more span i").toggleClass("fa-chevron-up")

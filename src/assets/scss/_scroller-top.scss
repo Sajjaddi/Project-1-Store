@@ -1,0 +1,20 @@
+#scroller-top {
+  position: fixed;
+  bottom: 100px;
+  right: -60px;
+  background-color: #e8f2fc;
+  width: 45px;
+  height: 45px;
+  display: block;
+  border-radius: 35px;
+  transition: all 0.3s ease;
+  z-index: 100;
+  border: 2px solid #0082fd;
+}
+#scroller-top i {
+  color: #0082fd;
+  position: relative;
+  right: 13px;
+  top: 11px;
+  transition: all 0.3s ease;
+}
