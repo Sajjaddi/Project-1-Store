@@ -1,4 +1,9 @@
 $(document).ready(function(){
+    $(".view-more").click(function(){
+        $(".about-more").toggleClass("view-all")
+        $(".view-more span i").toggleClass("fa-chevron-up")
+    });
+
         $(".toggler").click(function(){
             $(".toggler i").toggleClass("close-icon")
             $(".menu-navbar nav").toggle("fast")
