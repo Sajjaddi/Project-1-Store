@@ -815,6 +815,65 @@ header .menu-navbar nav ul li.navbar-item ul .col li.header a i {
   border-radius: 10px;
 }
 
+.property {
+  background: #feed00;
+}
+
+.property .row {
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+}
+
+.property .row .active-property:nth-child(1) {
+  background: #ecdd00;
+  border-radius: 6px;
+}
+
+.property .row .images-info {
+  height: 150px;
+  width: 100%;
+  margin: auto;
+}
+
+.property .row .images-info a {
+  position: relative;
+  padding: 12px 4px 20px;
+  text-align: center;
+  display: block;
+}
+
+.property .row .images-info a .text-info {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+
+.property .row .images-info a .text-info .title {
+  color: #111;
+  font-size: 15px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.property .row .images-info a .text-info .description {
+  background-color: #fff2f2;
+  border: 1px solid #ffdcdf;
+  color: #eb5757;
+  padding: 0 8px;
+  width: fit-content;
+  border-radius: 36px;
+  font-size: 12px;
+}
+
+.property .row .images-info a .text-info img {
+  position: absolute;
+  bottom: 34px;
+  right: 10px;
+}
+
 body {
   overflow-x: hidden;
 }

@@ -1,0 +1,52 @@
+// for property
+.property {
+    background: #feed00;
+  .row {
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    .active-property:nth-child(1){
+        background: #ecdd00;
+        border-radius: 6px;
+    }
+    .images-info {
+
+        height: 150px;
+        width: 100%;
+        margin: auto;
+      a {
+        position: relative;
+        padding: 12px 4px 20px;
+        text-align: center;
+        display: block;
+        .text-info{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            text-align: center;
+            align-items: center;
+            .title{
+                color: #111;
+                font-size: $default-font-size - 1;
+                font-weight: bold;
+                margin-bottom: 5px;
+            }
+            .description{
+                background-color: #fff2f2;
+                border: 1px solid #ffdcdf;
+                color: #eb5757;
+                padding: 0 8px;
+                width: fit-content;
+                border-radius: 36px;
+                font-size: $default-font-size - 4;
+            }
+            img{
+                position: absolute;
+                bottom: 34px;
+                right: 10px;
+            }
+        }
+        }
+    }
+    }
+  }
