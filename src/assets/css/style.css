@@ -874,6 +874,38 @@ header .menu-navbar nav ul li.navbar-item ul .col li.header a i {
   right: 10px;
 }
 
+.about-us-info {
+  background: #fafafa;
+}
+
+.about-us-info .row {
+  padding: 12px 0;
+}
+
+.about-us-info .row div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-us-info .row div span {
+  font-size: 14px;
+}
+
+.about-us-info .row div .key {
+  margin-left: 10px;
+}
+
+.about-us-info .row .social-media .key {
+  margin-left: 20px;
+}
+
+.about-us-info .row .social-media .value i {
+  color: #666;
+  margin-left: 10px;
+  font-size: 23px;
+}
+
 body {
   overflow-x: hidden;
 }

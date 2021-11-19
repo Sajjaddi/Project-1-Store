@@ -50,3 +50,34 @@
     }
     }
   }
+// for about us info
+.about-us-info{
+    background: #fafafa;
+    .row{
+        padding: 12px 0;
+
+        div{
+            display: flex;
+            justify-content: center;
+            align-items:center;
+            span{
+                font-size: $default-font-size - 2;
+            }
+            .key{
+                margin-left: 10px;
+            }
+        }
+        .social-media{
+            .key{
+                margin-left: 20px;
+            }
+            .value{
+                i{
+                    color: #666;
+                    margin-left: 10px;
+                    font-size: $default-font-size + 7;
+                }
+            }
+        }
+    }
+}
