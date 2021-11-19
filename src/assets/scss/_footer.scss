@@ -81,3 +81,28 @@
         }
     }
 }
+// for information us
+.information-us{
+    .row{
+        .info{
+            ul{
+                p{
+                    margin-bottom:25px;
+                    font-weight: bold;
+                }
+                li{
+                    margin-bottom: 15px;
+                    a{
+                        color: #333;
+                        font-size: $default-font-size - 2;
+                    }
+                }
+            }
+        }
+        .symbols{
+            img:nth-child(2){
+                margin-right: 50px;
+            }
+        }
+    }
+}

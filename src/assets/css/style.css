@@ -906,6 +906,24 @@ header .menu-navbar nav ul li.navbar-item ul .col li.header a i {
   font-size: 23px;
 }
 
+.information-us .row .info ul p {
+  margin-bottom: 25px;
+  font-weight: bold;
+}
+
+.information-us .row .info ul li {
+  margin-bottom: 15px;
+}
+
+.information-us .row .info ul li a {
+  color: #333;
+  font-size: 14px;
+}
+
+.information-us .row .symbols img:nth-child(2) {
+  margin-right: 50px;
+}
+
 body {
   overflow-x: hidden;
 }
