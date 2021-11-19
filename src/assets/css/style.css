@@ -734,11 +734,11 @@ header .menu-navbar nav ul li.navbar-item ul .col li.header a i {
   font-size: 38px;
 }
 
-.sales-item-carousel .row div .title-carousel {
+.carousel-items .row div .title-carousel {
   margin-bottom: 80px;
 }
 
-.sales-item-carousel .row div .title-carousel .title-text-carousel img {
+.carousel-items .row div .title-carousel .title-text-carousel img {
   animation: fire-sale 1s infinite;
 }
 
@@ -748,12 +748,12 @@ header .menu-navbar nav ul li.navbar-item ul .col li.header a i {
   }
 }
 
-.sales-item-carousel .row div .title-carousel .title-text-carousel .text {
+.carousel-items .row div .title-carousel .title-text-carousel .text {
   font-size: 24px;
   position: relative;
 }
 
-.sales-item-carousel .row div .title-carousel .title-text-carousel .text::before {
+.carousel-items .row div .title-carousel .title-text-carousel .text::before {
   content: "";
   position: absolute;
   bottom: 0;
@@ -764,7 +764,7 @@ header .menu-navbar nav ul li.navbar-item ul .col li.header a i {
   z-index: -1;
 }
 
-.sales-item-carousel .row div .title-carousel .title-text-carousel .text::after {
+.carousel-items .row div .title-carousel .title-text-carousel .text::after {
   content: "";
   position: absolute;
   bottom: -8px;
@@ -809,6 +809,10 @@ header .menu-navbar nav ul li.navbar-item ul .col li.header a i {
 .banner-series-computer .row .images-series-top div div a img {
   border-radius: 10px;
   height: 100%;
+}
+
+.banner-offer-item .row div img {
+  border-radius: 10px;
 }
 
 body {
