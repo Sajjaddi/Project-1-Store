@@ -6,10 +6,9 @@ $(document).ready(function(){
         else{
             $("#scroller-top").css("right","-60px")
         }
-        $("#scroller-top").click(function(){
-            $("body,html").animate({
-                scrollTop:0
-            },500);
+        $("#scroller-top").click(function(e){
+            e.preventDefault();
+            document.documentElement.scrollTop = 0;
         });
     });
     $(".view-more").click(function(){
